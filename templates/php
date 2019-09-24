@@ -1,0 +1,6 @@
+<?php
+// %%HEADER%%
+
+function stripEmojis($str) {
+    return preg_replace(%%REGEX%%, "", $str);
+}

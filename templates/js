@@ -1,0 +1,5 @@
+// %%HEADER%%
+
+function stripEmojis(str) {
+    return str.replace(%%REGEX%%, "");
+}
